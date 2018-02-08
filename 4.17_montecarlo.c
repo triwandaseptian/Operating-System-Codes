@@ -8,7 +8,8 @@
  * This technique works as follows: Suppose you have a circle inscribed within a square, as shown in Figure 4.18. 
  * (Assume that the radius of this circle is 1.)
  * 
- * First, generate a series of random points as simple (x,y) coordinates. These points must fall within the Cartesian coordinates that bound the square. Of the total number of random points that are generated, some will occur within the circle.
+ * First, generate a series of random points as simple (x,y) coordinates. 
+ * These points must fall within the Cartesian coordinates that bound the square. Of the total number of random points that are generated, some will occur within the circle.
  * Next, estimate phi by performing the following calculation:
  * phi =4*(number of points in circle)/(total number of points)
  * Write a multithreaded version of this algorithm that creates a separate thread to generate a number of random points.
